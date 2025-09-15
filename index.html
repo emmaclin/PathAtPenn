@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduSearch – Search</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+
+    <section class="phone">
+
+      <header class="appbar">
+        <h1>Search</h1>
+
+        <div class="appbar-actions">
+
+          <button class="icon-btn" aria-label="Calendar">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+          </button>
+
+
+          <button class="cart-btn" aria-label="Cart">
+            <span>Cart</span>
+          </button>
+        </div>
+      </header>
+
+
+      <div class="card">
+
+        <label class="field">
+          <span class="label">Course Name / Keyword</span>
+          <input type="text" placeholder="e.g., Human-Computer Interaction" />
+        </label>
+
+
+        <label class="field">
+          <span class="label">Subject</span>
+          <input type="text" placeholder="e.g., CIS, FNCE" />
+          <div class="chips">
+            <span class="chip chip-teal">CIS</span>
+            <span class="chip chip-teal">FNCE</span>
+          </div>
+        </label>
+
+
+        <label class="field">
+          <span class="label">Instructor</span>
+          <input type="text" placeholder="e.g., Prof. Smith" />
+        </label>
+
+
+        <label class="field">
+          <span class="label">School</span>
+          <input type="text" placeholder="e.g., WH, SEAS" />
+          <div class="chips">
+            <span class="chip chip-teal">WH</span>
+            <span class="chip chip-teal">SEAS</span>
+            <span class="chip chip-gray">NURS</span>
+            <span class="chip chip-gray">CAS</span>
+          </div>
+        </label>
+
+
+        <label class="field">
+          <span class="label">Course Attribute</span>
+          <input type="text" placeholder="e.g., Technical Elective" />
+          <div class="chips wrap">
+            <span class="chip chip-teal">Technical Elective</span>
+            <span class="chip chip-teal">CIS Elective</span>
+          </div>
+          <div class="chips wrap">
+            <span class="chip chip-outline">SEAS H</span>
+            <span class="chip chip-outline">SEAS SS</span>
+          </div>
+        </label>
+
+
+        <button class="primary-btn">Search</button>
+
+
+        <div class="advanced-row">
+          <span class="label">Advanced Search</span>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
